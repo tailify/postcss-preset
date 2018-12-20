@@ -1,0 +1,26 @@
+{
+  "name": "@tailify/postcss-preset",
+  "version": "0.0.0",
+  "description": "Tailify's very own opinionated PostCSS preset",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "tailify/postcss-preset",
+  "keywords": [
+    "postcss",
+    "postcss-preset"
+  ],
+  "license": "UNLICENSED",
+  "bugs": "https://github.com/tailify/postcss-preset/issues",
+  "homepage": "https://github.com/tailify/postcss-preset#readme",
+  "engines": {
+    "node": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
