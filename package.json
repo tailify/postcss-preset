@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && npm run test-only",
+    "test-only": "jest"
   },
   "repository": "tailify/postcss-preset",
   "keywords": [
@@ -21,7 +21,10 @@
   "homepage": "https://github.com/tailify/postcss-preset#readme",
   "devDependencies": {
     "eslint": "^5.10.0",
-    "eslint-plugin-node": "^8.0.0"
+    "eslint-plugin-jest": "^22.1.0",
+    "eslint-plugin-node": "^8.0.0",
+    "jest": "^23.6.0",
+    "postcss": "^6.0.0"
   },
   "peerDependencies": {
     "postcss": "^6.0.0"
