@@ -19,6 +19,9 @@
   "license": "UNLICENSED",
   "bugs": "https://github.com/tailify/postcss-preset/issues",
   "homepage": "https://github.com/tailify/postcss-preset#readme",
+  "dependencies": {
+    "autoprefixer": "9.4.3"
+  },
   "devDependencies": {
     "eslint": "^5.10.0",
     "eslint-plugin-jest": "^22.1.0",
