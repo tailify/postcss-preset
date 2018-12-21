@@ -43,6 +43,7 @@
       "dependencyPin": "Pin ${dependency} to ${oldVersion}",
       "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
     },
+    "ignore": ["postcss"],
     "prTitles": {
       "basicPR": "Update ${dependency} to the latest version",
       "groupPR": "Update ${dependency} in group ${group} to the latest version"
