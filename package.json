@@ -20,6 +20,7 @@
   "bugs": "https://github.com/tailify/postcss-preset/issues",
   "homepage": "https://github.com/tailify/postcss-preset#readme",
   "dependencies": {
+    "cssnano": "4.1.7",
     "postcss-preset-env": "6.5.0"
   },
   "devDependencies": {
