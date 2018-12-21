@@ -20,18 +20,15 @@
   "bugs": "https://github.com/tailify/postcss-preset/issues",
   "homepage": "https://github.com/tailify/postcss-preset#readme",
   "dependencies": {
-    "cssnano": "4.1.7",
-    "postcss-preset-env": "6.5.0"
+    "cssnano": "^4.1.0",
+    "postcss": "^7.0.0",
+    "postcss-preset-env": "^6.5.0"
   },
   "devDependencies": {
     "eslint": "^5.10.0",
     "eslint-plugin-jest": "^22.1.0",
     "eslint-plugin-node": "^8.0.0",
-    "jest": "^23.6.0",
-    "postcss": "^6.0.0"
-  },
-  "peerDependencies": {
-    "postcss": "^6.0.0"
+    "jest": "^23.6.0"
   },
   "engines": {
     "node": ">=8"
@@ -43,9 +40,6 @@
       "dependencyPin": "Pin ${dependency} to ${oldVersion}",
       "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
     },
-    "ignore": [
-      "postcss"
-    ],
     "prTitles": {
       "basicPR": "Update ${dependency} to the latest version",
       "groupPR": "Update ${dependency} in group ${group} to the latest version"
