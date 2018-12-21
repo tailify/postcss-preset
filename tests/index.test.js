@@ -1,7 +1,7 @@
 'use strict';
 
 const postcss = require('postcss');
-const preset = require('./../lib');
+const preset = require('./../lib/index.js');
 
 it('should not contain invalid rules', () => {
   return postcss([preset])
