@@ -1,6 +1,6 @@
 {
   "name": "@tailify/postcss-preset",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Tailify's very own opinionated PostCSS preset",
   "main": "lib/index.js",
   "files": [
@@ -43,7 +43,9 @@
       "dependencyPin": "Pin ${dependency} to ${oldVersion}",
       "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
     },
-    "ignore": ["postcss"],
+    "ignore": [
+      "postcss"
+    ],
     "prTitles": {
       "basicPR": "Update ${dependency} to the latest version",
       "groupPR": "Update ${dependency} in group ${group} to the latest version"
