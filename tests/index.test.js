@@ -5,9 +5,9 @@ const preset = require('./../lib/index.js');
 
 it('should not contain invalid rules', () => {
   return postcss([preset])
-    .process('a { font-weight: 500; }\n', { from: 'foo/bar.css' })
+    .process('@media (width >= 768px) {}\n', { from: 'foo/bar.css' })
     .then(result => {
       expect(result).toBeTruthy();
-      expect(result.css).toBe('a { font-weight: 500; }\n');
+      expect(result.css).toBe('@media (min-width: 768px) {}\n');
     });
 });
