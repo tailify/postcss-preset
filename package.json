@@ -4,7 +4,7 @@
   "description": "Tailify's very own opinionated PostCSS preset",
   "main": "lib/index.js",
   "files": [
-    "lib/index.js"
+    "lib"
   ],
   "scripts": {
     "lint": "eslint .",
@@ -25,10 +25,11 @@
     "postcss-preset-env": "^6.5.0"
   },
   "devDependencies": {
+    "@tailify/eslint-config-legacy": "^1.0.0",
+    "@tailify/prettier-config": "^1.0.0",
     "eslint": "^5.10.0",
-    "eslint-plugin-jest": "^22.1.0",
-    "eslint-plugin-node": "^8.0.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "prettier": "^1.15.0"
   },
   "engines": {
     "node": ">=8"
