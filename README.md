@@ -17,9 +17,7 @@ $ npm install --save-dev @tailify/postcss-preset
 To get started, add this to your `postcss.config.js` file:
 
 ```js
-module.exports = {
-  plugins: [require('@tailify/postcss-preset')]
-};
+module.exports = require('@tailify/postcss-preset');
 ```
 
 [build-status-image]: https://travis-ci.com/tailify/postcss-preset.svg?branch=master
