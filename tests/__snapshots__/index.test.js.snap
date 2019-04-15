@@ -1,6 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should minify when building for production 1`] = `"@media (min-width:768px){body{background-color:red}}"`;
+
 exports[`should not contain invalid rules 1`] = `
-"@media (min-width: 768px) {}
+"
+@media (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
 "
 `;
