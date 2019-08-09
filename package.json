@@ -24,7 +24,7 @@
     "postcss-preset-env": "6.6.0"
   },
   "devDependencies": {
-    "@tailify/eslint-config-legacy": "^2.0.0",
+    "@tailify/eslint-config-legacy": "^5.0.0",
     "@tailify/prettier-config": "^1.0.0",
     "eslint": "^5.10.0",
     "jest": "^24.7.0",
